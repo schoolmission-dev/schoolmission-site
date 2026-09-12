@@ -49,15 +49,15 @@ type LinkKey =
 /** The typed record widens `live` to boolean, so callers gating on it read as
     real runtime checks rather than statically dead branches. */
 export const navLinks: Record<LinkKey, NavLink> = {
-  missionTheory: { label: 'Our Mission Theory', href: '/mission-theory', live: false },
-  workshops: { label: 'Workshops', href: '/workshops', live: false },
+  missionTheory: { label: 'Our Mission Theory', href: '/mission-theory', live: true },
+  workshops: { label: 'Workshops', href: '/workshops', live: true },
   fellows: { label: 'Our Fellows', href: '/fellows', live: false },
   sites: { label: 'Our Sites', href: '/sites', live: false },
   partners: { label: 'Partner Institutions', href: '/partners', live: false },
-  about: { label: 'About Us', href: '/about', live: false },
+  about: { label: 'About Us', href: '/about', live: true },
   // Donate points at email until the donate page ships.
   donate: { label: 'Donate', href: DONATE_HREF, live: true },
-  careers: { label: 'Careers', href: '/careers', live: false },
+  careers: { label: 'Careers', href: '/careers', live: true },
   // Volunteer is for Ghana students, who mostly arrive at app. directly.
   volunteer: { label: 'Volunteer', href: APP_REGISTER, live: true },
   contact: { label: 'Contact', href: `mailto:${SUPPORT}`, live: true },
@@ -78,7 +78,7 @@ export const primaryNav: NavItem[] = [
   navLinks.missionTheory,
   {
     label: 'Learn',
-    live: false,
+    live: true,
     children: [navLinks.workshops, navLinks.fellows],
   },
   navLinks.sites,
