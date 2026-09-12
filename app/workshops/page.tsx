@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Workshops | SchoolMission',
   description:
     'The whole model in seventy-five minutes: students, teachers, and missionaries run the loop as a workshop.',
+  openGraph: { title: 'Workshops | SchoolMission' },
 };
 
 const BOOK_HREF = 'mailto:workshops@schoolmission.org?subject=Workshop%20request';

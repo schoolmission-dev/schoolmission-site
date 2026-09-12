@@ -1,12 +1,14 @@
 import type { Metadata } from 'next';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, Reveal } from '@/components/site/Prose';
+import QuoteCard from '@/components/site/QuoteCard';
 
 // "Our Mission Theory" from docs/copy.md. All copy verbatim.
 
 export const metadata: Metadata = {
   title: 'Our Mission Theory | SchoolMission',
   description: 'Why we built a loop instead of a program: the principles behind SchoolMission.',
+  openGraph: { title: 'Our Mission Theory | SchoolMission' },
 };
 
 const INTRO =
@@ -43,6 +45,10 @@ const PRINCIPLES = [
   },
 ];
 
+const QUOTE =
+  "We don't give a student a school year. We build the loop in which they can earn one.";
+const QUOTE_BY = '— The SchoolMission team';
+
 const READING = [
   { title: 'When Helping Hurts', authors: '(Corbett and Fikkert)' },
   { title: 'Toxic Charity', authors: '(Lupton)' },
@@ -69,6 +75,8 @@ export default function MissionTheoryPage() {
             <P>{principle.body}</P>
           </Block>
         ))}
+
+        <QuoteCard quote={QUOTE} attribution={QUOTE_BY} />
 
         <Reveal>
           <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">

@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 4
+# schoolmission.org — copy, draft 6
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -30,7 +30,7 @@ Right: Sign in · **Donate** (yellow button)
 
 Cocoa360's right-hand button is Donate, not sign-in. With a US fundraising arm, ours should be too. Volunteer moves into Act — it's for Ghana students, who mostly arrive at `app.` directly.
 
-Pages that need data before they can go live — Our Sites, Partner Institutions, Our Fellows — are built as templates and stay out of the nav until the data exists. Nothing links to an empty page.
+Our Sites, Partner Institutions, and Our Fellows are descriptive pages — tiles that explain what a site, a partner, and a fellow are — rather than lists of named places and people. They need no data and go live with the rest.
 
 ---
 
@@ -141,6 +141,10 @@ The loop is run by Ghanaian supervisors, Ghanaian schools, and Ghanaian students
 **Two loops, one system**
 The service loop in Ghana turns work into education. The funding loop in the United States turns summer jobs into the credit pool — and gives American students their own reason to serve. Neither loop is charity to the other.
 
+**Quote card**
+> We don't give a student a school year. We build the loop in which they can earn one.
+> — The SchoolMission team
+
 **Reading that shaped us**
 *When Helping Hurts* (Corbett and Fikkert) · *Toxic Charity* (Lupton) · *Building Communities from the Inside Out* (Kretzmann and McKnight) · *Walking with the Poor* (Myers) · *Development as Freedom* (Sen)
 
@@ -227,57 +231,94 @@ A workshop runs with fifteen to twenty students, two or three teachers, and one 
 ## Our Fellows
 
 **Heading:** Our Fellows
+**Sub:** The students at the center of the loop
 
-Fellows are the students admitted to a SchoolMission cohort. Admission is deliberate — every fellow is placed with a named supervisor, on a real project, at a school that has agreed to honor their vouchers. Being a fellow means being trusted with work that matters.
+Fellows are the students admitted to a SchoolMission cohort. Every fellow is placed with a named supervisor, on a real project, at a school that has agreed to honor their vouchers. Being a fellow means being trusted with work that matters.
 
-### Cohorts
+**Who they are**
+Senior high school students in Ghana, most between fifteen and nineteen, who would otherwise spend the school break looking for money to come back to class.
 
-`[One card per cohort. Suggested fields: cohort name · region · number of fellows · partner schools · host organizations · placement dates · causes served. No individual names or photos.]`
+**How they join**
+By application and admission to a cohort. Cohorts are kept small on purpose, so every fellow has a supervisor who knows their name and a school that has agreed to honor their vouchers.
 
-### Alumni
+**What they do**
+Supervised community work during school breaks: water points, farm plots, classrooms, clinics — the practical projects partner missions and organizations already run.
 
-`[Later. Fellows who have completed a placement and moved to alumni status, with their service record. Same rule: cohort-level unless a fellow, and their parent or guardian, has agreed in writing to be named.]`
+**What they earn**
+Community Value Credits, assigned by the supervisor who watched the work. Credits become vouchers at the fellow's own school — tuition, meals, textbooks. No cash, ever.
 
-*Fellows are fifteen to nineteen. Most are minors. This page describes cohorts, not individuals, and should stay that way until you have a written consent process. A first name, a region, and a quote can be powerful — but only with a signed release from the student and a parent.*
+**What they leave with**
+A verified service record: every placement, every credit, every voucher, on the platform, in their name. It's the first line of a résumé most of them didn't know they were writing.
+
+**What happens after**
+Fellows who complete a placement move to alumni status and keep their record for good. The loop doesn't end when the placement does.
+
+**Closing line, set apart:**
+We describe our fellows as a group, not as individuals. Most are minors, and their stories are theirs to tell.
+
+**Link under the closing line:** Follow each cohort on Instagram → `https://www.instagram.com/schoolmissions/`
+
+> Design: six tiles (role-tile treatment), mono label, paragraph. Two columns on desktop, one on mobile. Closing line in mono under the tiles. No photos, no names — by design, and the closing line says so.
 
 ---
 
 ## Our Sites
 
 **Heading:** Our Sites
-**Sub:** Where the loop is running
+**Sub:** Where the loop runs
 
-`[One card per site. Suggested fields: community · region · host organization · partner schools · operating since · causes (water and sanitation, agriculture, education, community development, health).]`
+A site is a community where three things are in place: a host organization running projects, a school that honors vouchers, and a cohort of fellows serving during school breaks.
 
-**Intro:** Every site is a community where a host organization runs projects, a school honors vouchers, and a cohort of fellows serves during school breaks. A site exists when all three are in place.
+Every site is close to the school and the homes of the fellows who serve there. That's deliberate. Students learn in the classroom, come home for the break, and put what they've learned to work in their own community alongside the missionaries and organizations already there — instead of leaving to find work somewhere else. The village they grow up in is the one they build.
+
+The work falls into a few kinds.
+
+**Agriculture**
+Farm plots, post-harvest handling, gardens that feed a school. Fellows work alongside farmers on the problems the community already knows it has.
+
+**Clean water**
+Water points, storage, sanitation. The projects with the most direct effect on whether children stay healthy and in school.
+
+**Technology**
+Digital skills for students and community groups, and the practical work of helping schools and hosts run the SchoolMission platform itself.
+
+**Infrastructure**
+Classrooms, latrines, paths, repairs — the physical work hosts have always needed hands for, now supervised and credited.
+
+**Camps**
+Structured, multi-week programs during the break where a cohort serves together on one host's projects: set days, a supervisor on site, and a group that finishes as a team.
+
+**Closing line, set apart:**
+Every site, whatever the work, runs on the same rules: a named supervisor, verified credits, and vouchers honored at the fellow's own school.
 
 **CTA:** Bring SchoolMission to your community → `mailto:partners@schoolmission.org`
+
+> Design: five tiles, same treatment as Our Fellows. Each tile carries a small terracotta ring in its corner (the site motif) rather than an icon — no icon set, no emoji.
 
 ---
 
 ## Partner Institutions
 
 **Heading:** Partner Institutions
+**Sub:** Four kinds of partner, one loop
 
-### Partner schools in Ghana
+SchoolMission doesn't run projects, teach classes, or employ students. Our partners do. We connect them and keep the record.
 
-`[List: school name · region · partner since]`
+**NGOs and community organizations** — Ghana
+Host projects and supervise fellows. If you already run community work in Ghana, you're already doing most of what a host does. You gain supervised hands during school breaks and a verified record of the work.
 
-Partner schools honor SchoolMission vouchers at the counter — tuition, meals, textbooks — and are reimbursed in full by mobile money. Any senior high school in Ghana can register.
+**Senior high schools** — Ghana
+Honor SchoolMission vouchers at the counter — tuition, meals, textbooks — and are reimbursed in full by mobile money. Any senior high school in Ghana can register.
 
-### Host missions and organizations in Ghana
+**Churches and missions**
+Send missionaries and teams to development projects in Ghana, host fellows on those projects, and verify their work. For US congregations, this is also where the funding loop begins: your students' summer earnings support the ministry at home in Ghana.
 
-`[List: organization · region · causes]`
-
-Host organizations run the community projects, supervise fellows on placement, and verify their work. If your ministry or organization already runs community projects, you are already doing most of what a host does.
-
-### Host camps and churches in the United States
-
-`[List: camp or church · state · partner since]`
-
-Hosts employ SchoolMission staff for the summer season. Every host is a funding partner for education in Ghana — through their staff's earnings, not their own budget.
+**Summer camps** — United States
+Employ SchoolMission staff for the summer season. A share of what those staff earn funds the credit pool, so camps become funding partners for education in Ghana through their staff's earnings, not their own budget.
 
 **CTA:** Partner with SchoolMission → `mailto:partners@schoolmission.org`
+
+> Design: four tiles, the mono label carrying the country tag where there is one. CTA under the tiles.
 
 ---
 
@@ -290,6 +331,12 @@ Every school break, students across Ghana go looking for money so they can retur
 At the same time, churches, missions, and community organizations run projects that need hands — water points, gardens, literacy programs, health outreach. The work exists. The need exists. What had been missing was a safe, structured way to connect the two, and to make sure the value a student creates comes back to them as education.
 
 SchoolMission is that system. Students serve on supervised community projects during school breaks, earn verified credits, and redeem them at their own schools. In the United States, students work paid summers at partner camps and churches and fund the credit pool with a share of what they earn. Neither side is charity to the other.
+
+**Quote card**
+> Youth ministry was never about keeping young people busy until they grow up. It's about trusting them with real work in their own community, and letting them see what their hands can build.
+> — Emmanuel Segbedzi, Founder
+
+*Draft — these are your words to edit.*
 
 **How it started**
 `[Your voice, not mine. Two or three paragraphs: what you saw, when, and what made you think a loop would work where a program wouldn't.]`
@@ -342,7 +389,7 @@ Our Sites · Partner Institutions
 About Us · Contact · Privacy Policy · Terms of Service
 
 **Social**
-`[the ones that exist]`
+Instagram → `https://www.instagram.com/schoolmissions/`
 
 © 2026 SchoolMission. All rights reserved.
 
@@ -356,17 +403,14 @@ About Us · Contact · Privacy Policy · Terms of Service
 3. Where an applicant goes: does the sponsor role exist in the live app's registration flow? If not, a form or a mailto until it does.
 4. `careers@`, `workshops@`, `partners@` — which addresses exist. All can alias to `support@` for now.
 
-**Data pages**
-5. Sites: community, region, host organization, partner schools, since.
-6. Partner schools, host organizations in Ghana, host camps and churches in the US.
-7. Cohorts: name, region, number of fellows, schools, hosts, dates.
-8. A written consent process before any fellow is named or pictured.
+**Descriptive pages and quotes**
+5. Founder quote on About Us — edit or replace. Name confirmed: Emmanuel Segbedzi.
 
 **Still open from draft 2**
-9. Vision statement.
-10. Hero line two: name Ghana, or "Built with the people it serves."
-11. Donate: what a gift funds, how to give, tax status.
-12. Location lines and social handles.
+7. Vision statement.
+8. Hero line two: name Ghana, or "Built with the people it serves."
+9. Donate: a donation page link is coming; until then the mailto stopgap stays.
+10. Location lines for the footer. (Instagram is in.)
 
 ---
 
@@ -379,5 +423,5 @@ Separate repo, separate Vercel project, apex domain. Phase-per-commit, same veri
 - **2c — The Loop + Two loops.** The Loop is the design-risk phase; desktop first, mobile verified before commit.
 - **2d — Measure + Platform + Footer.**
 - **2e — Our Mission Theory, Careers, Workshops, About.** Prose pages; no data needed.
-- **2f — Our Sites, Partner Institutions, Our Fellows** as templates with a `data/` folder of JSON. Hidden from nav until the JSON has entries.
+- **2f — Our Sites, Partner Institutions, Our Fellows** as descriptive tile pages, plus the two quote cards. All three go live in the nav.
 - **2g — Donate** once decided. Then polish on the real domain, both devices.

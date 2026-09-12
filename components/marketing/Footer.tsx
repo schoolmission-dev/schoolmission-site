@@ -19,14 +19,18 @@ export default function Footer() {
   return (
     <footer className="bg-sm-coffee text-sm-cream">
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-4">
-          <div>
-            <Lockup variant="dark" className="h-8 w-auto" />
-            <p className="mt-3 font-mono text-xs leading-relaxed text-sm-cream/60">
-              Community service that pays for school.
-            </p>
-          </div>
+        {/* The wordmark sits on its own row rather than in a link column: at
+            32px the lockup is ~212px wide, which overflowed a shared track once
+            Social brought the count to five. Its own row also leaves the link
+            columns wide enough for "Partner Institutions" to sit on one line. */}
+        <div>
+          <Lockup variant="dark" className="h-8 w-auto" />
+          <p className="mt-3 font-mono text-xs leading-relaxed text-sm-cream/60">
+            Community service that pays for school.
+          </p>
+        </div>
 
+        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-5">
           {columns.map((column) => (
             <div key={column.label}>
               <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">

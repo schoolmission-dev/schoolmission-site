@@ -16,7 +16,11 @@ export type NavHrefProps = {
 /** Internal routes go through Link; mailto: and app. links are plain anchors. */
 export default function NavHref({ item, ...props }: NavHrefProps) {
   return isExternal(item.href) ? (
-    <a href={item.href} {...props}>
+    <a
+      href={item.href}
+      {...(item.newTab ? { target: '_blank', rel: 'noopener' } : {})}
+      {...props}
+    >
       {item.label}
     </a>
   ) : (

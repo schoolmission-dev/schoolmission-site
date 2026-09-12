@@ -15,6 +15,8 @@ export type NavLink = {
   label: string;
   href: string;
   live: boolean;
+  /** Opens in a new tab; NavHref adds rel="noopener" with it. */
+  newTab?: boolean;
 };
 
 export type NavGroup = {
@@ -31,6 +33,7 @@ const APP_REGISTER = 'https://app.schoolmission.org/register';
 const APP_LOGIN = 'https://app.schoolmission.org/login';
 
 export const APP_URL = 'https://app.schoolmission.org';
+export const INSTAGRAM_URL = 'https://www.instagram.com/schoolmissions/';
 
 type LinkKey =
   | 'missionTheory'
@@ -44,16 +47,17 @@ type LinkKey =
   | 'volunteer'
   | 'contact'
   | 'privacy'
-  | 'terms';
+  | 'terms'
+  | 'instagram';
 
 /** The typed record widens `live` to boolean, so callers gating on it read as
     real runtime checks rather than statically dead branches. */
 export const navLinks: Record<LinkKey, NavLink> = {
   missionTheory: { label: 'Our Mission Theory', href: '/mission-theory', live: true },
   workshops: { label: 'Workshops', href: '/workshops', live: true },
-  fellows: { label: 'Our Fellows', href: '/fellows', live: false },
-  sites: { label: 'Our Sites', href: '/sites', live: false },
-  partners: { label: 'Partner Institutions', href: '/partners', live: false },
+  fellows: { label: 'Our Fellows', href: '/fellows', live: true },
+  sites: { label: 'Our Sites', href: '/sites', live: true },
+  partners: { label: 'Partner Institutions', href: '/partners', live: true },
   about: { label: 'About Us', href: '/about', live: true },
   // Donate points at email until the donate page ships.
   donate: { label: 'Donate', href: DONATE_HREF, live: true },
@@ -70,6 +74,12 @@ export const navLinks: Record<LinkKey, NavLink> = {
     label: 'Terms of Service',
     href: `mailto:${SUPPORT}?subject=Terms%20of%20Service`,
     live: true,
+  },
+  instagram: {
+    label: 'Instagram',
+    href: INSTAGRAM_URL,
+    live: true,
+    newTab: true,
   },
 };
 
@@ -121,6 +131,11 @@ export const footerNav: NavGroup[] = [
     label: 'Quick links',
     live: true,
     children: [navLinks.about, navLinks.contact, navLinks.privacy, navLinks.terms],
+  },
+  {
+    label: 'Social',
+    live: true,
+    children: [navLinks.instagram],
   },
 ];
 

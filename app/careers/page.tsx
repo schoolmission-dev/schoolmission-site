@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: 'Careers | SchoolMission',
   description:
     'Paid summer positions at partner camps and churches across the United States. Earn toward your own education and fund a school year in Ghana.',
+  openGraph: { title: 'Careers | SchoolMission' },
 };
 
 const APPLY_HREF =
