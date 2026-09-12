@@ -62,6 +62,13 @@ export default function Footer() {
           <p className="font-mono text-xs text-sm-cream/50">
             © {year} SchoolMission. All rights reserved.
           </p>
+          <p className="mt-4 max-w-[70ch] font-mono text-xs leading-relaxed text-sm-cream/60">
+            SchoolMission is a 501(c)(3) tax-exempt public charity in the United States
+            (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
+          </p>
+          <p className="mt-2 font-mono text-xs leading-relaxed text-sm-cream/60">
+            Licensed by the Department of Social Welfare, Ghana.
+          </p>
         </div>
       </div>
     </footer>

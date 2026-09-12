@@ -32,7 +32,7 @@ const QUOTE =
 const QUOTE_BY = '— Emmanuel Segbedzi, Founder';
 
 const REGISTRATION =
-  'SchoolMission is a registered non-profit in the United States and Ghana.';
+  'SchoolMission is a 501(c)(3) tax-exempt public charity in the United States and is licensed by the Department of Social Welfare in Ghana.';
 
 export default function AboutPage() {
   return (

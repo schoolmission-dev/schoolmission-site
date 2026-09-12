@@ -346,7 +346,7 @@ SchoolMission is that system. Students serve on supervised community projects du
 **Who we are**
 `[Founder and team. Emmanuel Segbedzi, founder — a paragraph. Others as they exist.]`
 
-SchoolMission is a registered non-profit in the United States and Ghana.
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States and is licensed by the Department of Social Welfare in Ghana.
 
 **Contact:** `support@schoolmission.org`
 
@@ -362,7 +362,7 @@ Every dollar you give goes into the credit pool — the fund that pays a school 
 
 `[How to give — donation platform, bank details, mobile money.]`
 
-`[Tax status of US gifts — only if it's confirmed.]`
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
 
 You can trace it. Every credit funded by a gift is recorded from the placement where it was earned to the school where it was spent.
 
@@ -395,6 +395,9 @@ About Us · Contact · Privacy Policy · Terms of Service
 Instagram → `https://www.instagram.com/schoolmissions/`
 
 © 2026 SchoolMission. All rights reserved.
+
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
+Licensed by the Department of Social Welfare, Ghana.
 
 ---
 
