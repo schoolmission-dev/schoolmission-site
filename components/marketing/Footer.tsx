@@ -1,4 +1,4 @@
-import { visibleFooterNav } from '@/lib/nav';
+import { APP_URL, visibleFooterNav } from '@/lib/nav';
 import Lockup from '@/components/brand/Lockup';
 import NavHref from './NavHref';
 
@@ -23,11 +23,19 @@ export default function Footer() {
             32px the lockup is ~212px wide, which overflowed a shared track once
             Social brought the count to five. Its own row also leaves the link
             columns wide enough for "Partner Institutions" to sit on one line. */}
-        <div>
-          <Lockup variant="dark" className="h-8 w-auto" />
-          <p className="mt-3 font-mono text-xs leading-relaxed text-sm-cream/60">
-            Community service that pays for school.
-          </p>
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <Lockup variant="dark" className="h-8 w-auto" />
+            <p className="mt-3 font-mono text-xs leading-relaxed text-sm-cream/60">
+              Community service that pays for school.
+            </p>
+          </div>
+          <a
+            href={APP_URL}
+            className="w-full shrink-0 rounded-md bg-sm-yellow px-4 py-2.5 text-center text-sm font-semibold text-sm-coffee transition-colors hover:bg-sm-yellow/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-cream sm:w-auto"
+          >
+            Join us
+          </a>
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-5">

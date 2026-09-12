@@ -18,8 +18,8 @@ Rules unchanged: everything factual comes from the canvas, the startup plan, the
 /about                  About Us
 /donate                 Donate                    Act ▾
 /careers                Careers                   Act ▾  (US paid summer placements)
-→ app register          Volunteer                 Act ▾  (Ghana students)
-→ app login             Sign in                   nav right
+→ app landing page      Volunteer                 Act ▾  (Ghana students)
+→ app landing page      Sign in                   nav right
 ```
 
 ### Nav
@@ -46,6 +46,8 @@ Designed with students, missions, and schools in Ghana.
 
 **Thesis:**
 Most programs treat youth work, school fees, and community development as three separate problems. We run them as one loop — because the same school break that pushes a student toward unsafe work is the one when community projects need hands most.
+
+**Button:** Join us → `app landing page`
 
 **Link:** Here's how our model works → `#loop`
 
@@ -372,6 +374,7 @@ You can trace it. Every credit funded by a gift is recorded from the placement w
 
 **SchoolMission**
 Community service that pays for school.
+**Button:** Join us → `app landing page`
 
 **Location**
 `[Accra, Ghana]` · `[City, State, USA]`

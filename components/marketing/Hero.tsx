@@ -1,6 +1,7 @@
 'use client';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { APP_URL } from '@/lib/nav';
 
 const LOOP_LINK = "Here's how our model works →";
 
@@ -58,12 +59,22 @@ export default function Hero() {
           most.
         </p>
 
-        <a
-          href="#loop"
-          className="mt-8 inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
-        >
-          {LOOP_LINK}
-        </a>
+        {/* Full width with the link beneath it on small screens; both on one
+            row from sm up. */}
+        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+          <a
+            href={APP_URL}
+            className="w-full rounded-md bg-sm-yellow px-4 py-2.5 text-center text-sm font-semibold text-sm-coffee transition-colors hover:bg-sm-yellow/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-cream sm:w-auto"
+          >
+            Join us
+          </a>
+          <a
+            href="#loop"
+            className="text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+          >
+            {LOOP_LINK}
+          </a>
+        </div>
       </motion.div>
     </section>
   );

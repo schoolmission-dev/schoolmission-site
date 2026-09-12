@@ -29,9 +29,13 @@ export type NavItem = NavLink | NavGroup;
 
 const SUPPORT = 'support@schoolmission.org';
 const DONATE_HREF = `mailto:${SUPPORT}?subject=Donation`;
-const APP_REGISTER = 'https://app.schoolmission.org/register';
-const APP_LOGIN = 'https://app.schoolmission.org/login';
 
+/**
+ * Everything that sends someone to the platform points at its landing page,
+ * not at /register or /login. People arriving from the marketing site should
+ * meet the app's own introduction and choose from there, rather than being
+ * dropped straight into a form.
+ */
 export const APP_URL = 'https://app.schoolmission.org';
 export const INSTAGRAM_URL = 'https://www.instagram.com/schoolmissions/';
 
@@ -63,7 +67,7 @@ export const navLinks: Record<LinkKey, NavLink> = {
   donate: { label: 'Donate', href: DONATE_HREF, live: true },
   careers: { label: 'Careers', href: '/careers', live: true },
   // Volunteer is for Ghana students, who mostly arrive at app. directly.
-  volunteer: { label: 'Volunteer', href: APP_REGISTER, live: true },
+  volunteer: { label: 'Volunteer', href: APP_URL, live: true },
   contact: { label: 'Contact', href: `mailto:${SUPPORT}`, live: true },
   privacy: {
     label: 'Privacy Policy',
@@ -102,7 +106,7 @@ export const primaryNav: NavItem[] = [
 ];
 
 /** Right of the header. */
-export const signIn: NavLink = { label: 'Sign in', href: APP_LOGIN, live: true };
+export const signIn: NavLink = { label: 'Sign in', href: APP_URL, live: true };
 export const donateCta: NavLink = { label: 'Donate', href: DONATE_HREF, live: true };
 
 /**
