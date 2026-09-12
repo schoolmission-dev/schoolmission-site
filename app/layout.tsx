@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SITE_URL } from "@/lib/nav";
 import TopNav from "@/components/marketing/TopNav";
 import Footer from "@/components/marketing/Footer";
 import "./globals.css";
@@ -14,7 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://schoolmission.org";
 const TITLE = "SchoolMission";
 const DESCRIPTION = "Community service that pays for school.";
 

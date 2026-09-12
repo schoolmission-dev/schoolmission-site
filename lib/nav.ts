@@ -36,6 +36,7 @@ const DONATE_HREF = `mailto:${SUPPORT}?subject=Donation`;
  * meet the app's own introduction and choose from there, rather than being
  * dropped straight into a form.
  */
+export const SITE_URL = 'https://schoolmission.org';
 export const APP_URL = 'https://app.schoolmission.org';
 export const INSTAGRAM_URL = 'https://www.instagram.com/schoolmissions/';
 
