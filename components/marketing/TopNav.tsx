@@ -2,36 +2,8 @@
 
 import Link from 'next/link';
 import { useCallback, useEffect, useId, useRef, useState } from 'react';
-import {
-  donateCta,
-  isExternal,
-  isGroup,
-  signIn,
-  visibleNav,
-  type NavGroup,
-  type NavLink as NavLinkItem,
-} from '@/lib/nav';
-
-type NavHrefProps = {
-  item: NavLinkItem;
-  className?: string;
-  role?: React.AriaRole;
-  onClick?: () => void;
-  onKeyDown?: (event: React.KeyboardEvent<HTMLAnchorElement>) => void;
-};
-
-/** Internal routes go through Link; mailto: and app. links are plain anchors. */
-function NavHref({ item, ...props }: NavHrefProps) {
-  return isExternal(item.href) ? (
-    <a href={item.href} {...props}>
-      {item.label}
-    </a>
-  ) : (
-    <Link href={item.href} {...props}>
-      {item.label}
-    </Link>
-  );
-}
+import { donateCta, isGroup, signIn, visibleNav, type NavGroup } from '@/lib/nav';
+import NavHref from './NavHref';
 
 const DESKTOP_LINK =
   'text-sm text-sm-text-muted transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta';
