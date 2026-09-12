@@ -14,9 +14,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://schoolmission.org";
+const TITLE = "SchoolMission";
+const DESCRIPTION = "Community service that pays for school.";
+
 export const metadata: Metadata = {
-  title: "SchoolMission",
-  description: "Community service that pays for school.",
+  // Required so the og:image picked up from app/opengraph-image.png resolves
+  // to an absolute URL rather than a relative path.
+  metadataBase: new URL(SITE_URL),
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    siteName: TITLE,
+    url: SITE_URL,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+  },
 };
 
 export default function RootLayout({

@@ -1,4 +1,5 @@
 import { visibleFooterNav } from '@/lib/nav';
+import Lockup from '@/components/brand/Lockup';
 import NavHref from './NavHref';
 
 // Footer from docs/copy.md, driven by the same lib/nav.ts config as the header
@@ -20,7 +21,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-4">
           <div>
-            <p className="text-lg font-semibold tracking-tight">SchoolMission</p>
+            <Lockup variant="dark" className="h-8 w-auto" />
             <p className="mt-3 font-mono text-xs leading-relaxed text-sm-cream/60">
               Community service that pays for school.
             </p>

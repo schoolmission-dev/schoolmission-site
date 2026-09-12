@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { donateCta, isGroup, signIn, visibleNav, type NavGroup } from '@/lib/nav';
+import Lockup from '@/components/brand/Lockup';
 import NavHref from './NavHref';
 
 const DESKTOP_LINK =
@@ -191,9 +192,15 @@ export default function TopNav() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link
           href="/"
-          className="text-lg font-semibold tracking-tight text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+          className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
         >
-          SchoolMission
+          {/* Both nav states sit on cream: the bar is in normal flow above the
+              hero rather than over it, so at scrollY 0 the transparent bar shows
+              the cream body, and past 20px it fills with cream/95. The
+              dark-background lockup would put cream letters on cream here, so
+              the light one is correct in both states. Switch the unscrolled
+              state back to "dark" if the hero is ever pulled up under the bar. */}
+          <Lockup variant="light" className="h-7 w-auto sm:h-8" />
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">
