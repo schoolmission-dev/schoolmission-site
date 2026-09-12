@@ -45,7 +45,7 @@ export default function Hero() {
           Community service that pays for school.
         </h1>
 
-        <p className="mt-4 font-mono text-2xl font-light tracking-tight text-sm-cream/80 sm:text-3xl">
+        <p className="mt-4 font-mono text-lg font-light tracking-tight text-sm-cream/80 sm:text-xl">
           Designed with students, missions, and schools in Ghana.
         </p>
 
