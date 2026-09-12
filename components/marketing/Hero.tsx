@@ -2,6 +2,8 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 
+const LOOP_LINK = "Here's how our model works →";
+
 export default function Hero() {
   const { scrollY } = useScroll();
   const patternY = useTransform(scrollY, [0, 600], [0, 140]);
@@ -55,6 +57,13 @@ export default function Hero() {
           pushes a student toward unsafe work is the one when community projects need hands
           most.
         </p>
+
+        <a
+          href="#loop"
+          className="mt-8 inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+        >
+          {LOOP_LINK}
+        </a>
       </motion.div>
     </section>
   );
