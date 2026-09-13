@@ -84,6 +84,28 @@ export function Lead({ children }: { children: React.ReactNode }) {
   );
 }
 
+/**
+ * The Join-us treatment — the yellow button from the hero and the footer — for
+ * a page CTA on the cream band. Focus ring is coffee rather than cream, as in
+ * the header, because here it lands on a light background.
+ */
+export function ButtonLink({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <a
+      href={href}
+      className="inline-block rounded-md bg-sm-yellow px-4 py-2.5 text-center text-sm font-semibold text-sm-coffee transition-colors hover:bg-sm-yellow/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-coffee"
+    >
+      {children}
+    </a>
+  );
+}
+
 export function TextLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <a

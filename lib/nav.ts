@@ -6,9 +6,9 @@
  * visible in one place — nothing links to an empty page in the meantime.
  *
  * Links are defined once in `navLinks` and composed into both the header and
- * the footer, which group them differently: the header puts Our Mission
- * Theory at the top level, the footer files it under Learn. Flipping `live`
- * in one place therefore updates both menus at once.
+ * the footer, which group them differently: Our Mission Theory sits at the top
+ * level of the header and, per copy.md's footer, has no footer entry of its
+ * own. Flipping `live` in one place updates both menus at once.
  */
 
 export type NavLink = {
@@ -42,7 +42,8 @@ export const INSTAGRAM_URL = 'https://www.instagram.com/schoolmissions/';
 
 type LinkKey =
   | 'missionTheory'
-  | 'workshops'
+  | 'nextSteps'
+  | 'conference'
   | 'fellows'
   | 'sites'
   | 'partners'
@@ -59,7 +60,8 @@ type LinkKey =
     real runtime checks rather than statically dead branches. */
 export const navLinks: Record<LinkKey, NavLink> = {
   missionTheory: { label: 'Our Mission Theory', href: '/mission-theory', live: true },
-  workshops: { label: 'Workshops', href: '/workshops', live: true },
+  nextSteps: { label: 'Next Steps', href: '/next-steps', live: true },
+  conference: { label: 'Conference', href: '/conference', live: true },
   fellows: { label: 'Our Fellows', href: '/fellows', live: true },
   sites: { label: 'Our Sites', href: '/sites', live: true },
   partners: { label: 'Partner Institutions', href: '/partners', live: true },
@@ -88,13 +90,13 @@ export const navLinks: Record<LinkKey, NavLink> = {
   },
 };
 
-/** Centre of the header: Our Mission Theory · Learn ▾ · Our Sites · Partner Institutions · About Us · Act ▾ */
+/** Centre of the header: Our Mission Theory · Programs ▾ · Our Sites · Partner Institutions · About Us · Act ▾ */
 export const primaryNav: NavItem[] = [
   navLinks.missionTheory,
   {
-    label: 'Learn',
+    label: 'Programs',
     live: true,
-    children: [navLinks.workshops, navLinks.fellows],
+    children: [navLinks.nextSteps, navLinks.conference, navLinks.fellows],
   },
   navLinks.sites,
   navLinks.partners,
@@ -123,9 +125,9 @@ export const footerNav: NavGroup[] = [
     children: [navLinks.donate, navLinks.careers, navLinks.volunteer],
   },
   {
-    label: 'Learn',
+    label: 'Programs',
     live: true,
-    children: [navLinks.missionTheory, navLinks.workshops, navLinks.fellows],
+    children: [navLinks.nextSteps, navLinks.conference, navLinks.fellows],
   },
   {
     label: 'Places',

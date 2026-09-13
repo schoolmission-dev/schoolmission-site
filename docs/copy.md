@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 6
+# schoolmission.org — copy, draft 9
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -11,21 +11,24 @@ Rules unchanged: everything factual comes from the canvas, the startup plan, the
 ```
 /                       Home
 /mission-theory         Our Mission Theory        (was "Our Model")
-/workshops              Workshops                 Learn ▾
-/fellows                Our Fellows               Learn ▾
+/next-steps             Next Steps                Programs ▾   (was /workshops — redirect the old URL)
+/conference             Conference                Programs ▾
+/fellows                Our Fellows               Programs ▾
 /sites                  Our Sites
 /partners               Partner Institutions
 /about                  About Us
 /donate                 Donate                    Act ▾
 /careers                Careers                   Act ▾  (US paid summer placements)
-→ app landing page      Volunteer                 Act ▾  (Ghana students)
-→ app landing page      Sign in                   nav right
+→ app register          Volunteer                 Act ▾  (Ghana students)
+→ app login             Sign in                   nav right
 ```
 
 ### Nav
 
 Left: **SchoolMission**
-Center: Our Mission Theory · **Learn ▾** (Workshops · Our Fellows) · Our Sites · Partner Institutions · About Us · **Act ▾** (Donate · Careers · Volunteer)
+Center: Our Mission Theory · **Programs ▾** (Next Steps · Conference · Our Fellows) · Our Sites · Partner Institutions · About Us · **Act ▾** (Donate · Careers · Volunteer)
+
+"Learn" becomes "Programs" — now that the group holds two real programs and the fellows page, the verb no longer fits.
 Right: Sign in · **Donate** (yellow button)
 
 Cocoa360's right-hand button is Donate, not sign-in. With a US fundraising arm, ours should be too. Volunteer moves into Act — it's for Ghana students, who mostly arrive at `app.` directly.
@@ -46,8 +49,6 @@ Designed with students, missions, and schools in Ghana.
 
 **Thesis:**
 Most programs treat youth work, school fees, and community development as three separate problems. We run them as one loop — because the same school break that pushes a student toward unsafe work is the one when community projects need hands most.
-
-**Button:** Join us → `app landing page`
 
 **Link:** Here's how our model works → `#loop`
 
@@ -197,36 +198,79 @@ We don't have open staff roles at SchoolMission itself right now. When we do, th
 
 ---
 
-## Workshops
+## Next Steps
 
-**Heading:** Workshops
-**Sub:** The whole model in seventy-five minutes
+**Heading:** Next Steps
+**Sub:** A workshop for college, career, and calling
 
-Before a single student is placed, we run the loop as a workshop. Students, teachers, and missionaries each play the role they'd hold in the real system, and in an hour and a quarter everyone in the room has seen service turn into education.
+Next Steps is a workshop that helps a fellow answer the question every senior high student eventually faces: what comes after this, and how do I get there? Service pays for school; Next Steps is about what school is for. It runs alongside placements and, in full, at the Conference.
 
-### What happens
+**Vocational discernment**
+Not "what job" but "what are you for." Structured conversations and assessments that help a fellow name their interests, their strengths, and their calling — whether that leads to a trade, a profession, ministry, or the university.
 
-**Problems, not tasks**
-Students are split into groups and given a real community challenge — post-harvest loss, unsafe water access, young people with no work experience. They plan how they'd address it.
+**College and university applications**
+Choosing courses and institutions, writing applications and personal statements, meeting deadlines. A mentor works through it with the fellow, not for them.
 
-**Work, then verification**
-Groups complete structured tasks and submit them not to their teachers but to a missionary, who reviews the work and assigns Community Value Credits for effort, collaboration, and quality — exactly as a supervisor would on a real placement.
+**Test preparation**
+Partner test-prep organizations present what the exams ask and how to prepare — WASSCE first, and for fellows aiming abroad, the SAT and English proficiency tests.
 
-**Credits become vouchers become lunch**
-A facilitator converts each group's credits into vouchers — meal, tuition, textbooks, transport. Students take them to their teachers, who deliver the service. A meal voucher opens the dining hall. A tuition voucher comes off the fees. The loop closes in the room.
+**Scholarships and funding**
+Where the money for the next step comes from: scholarship search, application support, and what a verified SchoolMission service record adds to an application.
 
-**Then we talk about it**
-The last part is reflection: what felt fair, what didn't, where the confusion was. That's the data we came for.
+**Academic counseling**
+One-to-one sessions with academic counselors on subject choices, study habits, and recovery when results disappoint.
 
-### Who it's for
+**Presentations from partners**
+Universities, training institutions, and employers come to Next Steps to show fellows what's possible — and what it takes.
 
-**Schools and missions in Ghana** considering partnership. A workshop is the fastest way to find out whether your teachers and supervisors want to be part of the loop.
+**Closing line, set apart:**
+Next Steps is part of being a fellow. There's nothing to sign up for beyond the cohort.
 
-**Camps and churches in the United States.** Run one with your youth group or summer staff and they'll understand, in an afternoon, what their summer earnings fund.
+**CTA, students:** Become a fellow → `https://app.schoolmission.org`
+**CTA, partners:** Present at Next Steps → `mailto:workshops@schoolmission.org?subject=Present%20at%20Next%20Steps`
 
-A workshop runs with fifteen to twenty students, two or three teachers, and one or two missionaries or supervisors. We bring the materials.
+> Design: six tiles as on Our Fellows. Two CTAs under the closing line: Join-us button treatment for students, terracotta text link for partners. The `workshops@` alias fits the name, so it stays.
 
-**CTA:** Book a workshop → `mailto:workshops@schoolmission.org`
+---
+
+## Conference
+
+**Heading:** The SchoolMission Conference
+**Sub:** A gathering for prayer, formation, and care
+
+The Conference is where SchoolMission gathers — fellows, partner churches and missions, parents, teachers, and anyone who wants to know us better. It holds everything Next Steps offers, and adds what a workshop can't: prayer, formation, and care. Chaplains, mentors, and partner ministries lead days of prayer, teaching, and rest, and every fellow leaves known by name.
+
+**Prayer and worship**
+Mornings and evenings gathered in prayer, led by chaplains and partner churches. For many fellows it's the first time adults outside their family have prayed for them by name.
+
+**Spiritual formation**
+Chaplaincy sessions on faith, character, and the questions teenagers actually ask. Not a lecture series: small groups, with a mentor who stays with the same group for the whole conference.
+
+**Ministry workshops**
+Partner ministries lead workshops that hold academics and faith together — study as vocation, service as worship, leadership as stewardship.
+
+**Next Steps, in full**
+The whole Next Steps workshop runs inside the Conference — vocational discernment, college applications, test preparation, scholarships, academic counseling — so a fellow leaves with a next step and not just a feeling. What are you called to do? A trade, a profession, ministry, further study. Here there's time to find out.
+
+**Counseling and spiritual care**
+Trained mentors offer confidential listening and pastoral care, particularly for fellows carrying abuse, hardship, or the wounds of a broken home. Mentors are not a substitute for professional help; when a fellow needs more, we connect them to it.
+
+**Who it's for**
+Open to anyone who wants to know SchoolMission better. Fellows take part in the full Next Steps workshop as part of their fellowship — a plus earned by their service. Everyone else is welcome to the prayer, the teaching, and the conversation.
+
+**Who leads it**
+Chaplains and mentors from partner churches and missions in Ghana, alongside visiting ministry teams from the United States.
+
+**Closing line, set apart:**
+The Conference is where SchoolMission stops asking what a fellow can do and asks how they're doing.
+
+**Dates:** The next Conference is announced to fellows and on Instagram → `https://www.instagram.com/schoolmissions/`
+
+**CTA:** Come to the Conference → `mailto:partners@schoolmission.org?subject=Conference`
+**CTA:** Bring your youth group or ministry team → `mailto:partners@schoolmission.org?subject=Conference%20group`
+**CTA:** Serve as a mentor or chaplain → `mailto:partners@schoolmission.org?subject=Conference%20mentor`
+
+> Design: five tiles; "Who it's for" and "Who leads it" as two short paragraphs under them; closing line in mono; dates line; the first CTA in the Join-us button treatment, the other two as terracotta text links. Consider a `conference@` alias later.
 
 ---
 
@@ -302,7 +346,7 @@ Every site, whatever the work, runs on the same rules: a named supervisor, verif
 ## Partner Institutions
 
 **Heading:** Partner Institutions
-**Sub:** Four kinds of partner, one loop
+**Sub:** Five kinds of partner, one loop
 
 SchoolMission doesn't run projects, teach classes, or employ students. Our partners do. We connect them and keep the record.
 
@@ -313,14 +357,23 @@ Host projects and supervise fellows. If you already run community work in Ghana,
 Honor SchoolMission vouchers at the counter — tuition, meals, textbooks — and are reimbursed in full by mobile money. Any senior high school in Ghana can register.
 
 **Churches and missions**
-Send missionaries and teams to development projects in Ghana, host fellows on those projects, and verify their work. For US congregations, this is also where the funding loop begins: your students' summer earnings support the ministry at home in Ghana.
+Send missionaries and teams to development projects in Ghana, host fellows on those projects, and verify their work. Send chaplains and mentors to the Conference. For US congregations, this is also where the funding loop begins: your students' summer earnings support the ministry at home in Ghana.
 
 **Summer camps** — United States
 Employ SchoolMission staff for the summer season. A share of what those staff earn funds the credit pool, so camps become funding partners for education in Ghana through their staff's earnings, not their own budget.
 
+**Test-prep organizations and academic counselors**
+Present at Next Steps: what the exams ask, how to prepare, how to choose a course and apply. If you help students get to the next step, there's a room full of fellows who need exactly that.
+
 **CTA:** Partner with SchoolMission → `mailto:partners@schoolmission.org`
 
-> Design: four tiles, the mono label carrying the country tag where there is one. CTA under the tiles.
+### See the loop in seventy-five minutes
+
+Before a single student is placed, we can run the whole model as a workshop with your students, teachers, and supervisors. Students take on a real community challenge, complete structured tasks, submit them to a supervisor who assigns credits, convert the credits to vouchers, and redeem them with their teachers — the loop closes in the room, and the last part is reflection: what felt fair, what didn't, where the confusion was. Fifteen to twenty students, two or three teachers, one or two supervisors; we bring the materials. It's the fastest way for a school or mission to decide whether it wants to be part of the loop.
+
+**CTA:** Book a simulation → `mailto:workshops@schoolmission.org?subject=Simulation%20workshop`
+
+> Design: five tiles, the mono label carrying the country tag where there is one. CTA under the tiles, then the simulation section as prose with its own CTA (moved here from the old Workshops page — its audience is partners, not fellows).
 
 ---
 
@@ -346,7 +399,7 @@ SchoolMission is that system. Students serve on supervised community projects du
 **Who we are**
 `[Founder and team. Emmanuel Segbedzi, founder — a paragraph. Others as they exist.]`
 
-SchoolMission is a 501(c)(3) tax-exempt public charity in the United States and is licensed by the Department of Social Welfare in Ghana.
+SchoolMission is a registered non-profit in the United States and Ghana.
 
 **Contact:** `support@schoolmission.org`
 
@@ -362,7 +415,7 @@ Every dollar you give goes into the credit pool — the fund that pays a school 
 
 `[How to give — donation platform, bank details, mobile money.]`
 
-SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
+`[Tax status of US gifts — only if it's confirmed.]`
 
 You can trace it. Every credit funded by a gift is recorded from the placement where it was earned to the school where it was spent.
 
@@ -374,7 +427,6 @@ You can trace it. Every credit funded by a gift is recorded from the placement w
 
 **SchoolMission**
 Community service that pays for school.
-**Button:** Join us → `app landing page`
 
 **Location**
 `[Accra, Ghana]` · `[City, State, USA]`
@@ -382,8 +434,8 @@ Community service that pays for school.
 **Act**
 Donate · Careers · Volunteer
 
-**Learn**
-Our Mission Theory · Workshops · Our Fellows
+**Programs**
+Next Steps · Conference · Our Fellows
 
 **Places**
 Our Sites · Partner Institutions
@@ -395,9 +447,6 @@ About Us · Contact · Privacy Policy · Terms of Service
 Instagram → `https://www.instagram.com/schoolmissions/`
 
 © 2026 SchoolMission. All rights reserved.
-
-SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
-Licensed by the Department of Social Welfare, Ghana.
 
 ---
 
@@ -411,6 +460,12 @@ Licensed by the Department of Social Welfare, Ghana.
 
 **Descriptive pages and quotes**
 5. Founder quote on About Us — edit or replace. Name confirmed: Emmanuel Segbedzi.
+
+**Next Steps and Conference (draft 8)**
+6a. Page name: Next Steps — decided.
+6b. Safeguarding tile — removed by decision (Sept 13). The counseling tile keeps "not a substitute for professional help."
+6c. Exams named on Next Steps: WASSCE, SAT, English proficiency — confirm these are the ones you'll actually cover.
+6d. Aliases: Next Steps uses `workshops@` (it fits); Conference uses `partners@` with subject lines. Create `conference@` if you want it.
 
 **Still open from draft 2**
 7. Vision statement.
