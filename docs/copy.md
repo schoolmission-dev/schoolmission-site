@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 9
+# schoolmission.org — copy, draft 10
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -19,8 +19,8 @@ Rules unchanged: everything factual comes from the canvas, the startup plan, the
 /about                  About Us
 /donate                 Donate                    Act ▾
 /careers                Careers                   Act ▾  (US paid summer placements)
-→ app register          Volunteer                 Act ▾  (Ghana students)
-→ app login             Sign in                   nav right
+→ app landing page      Volunteer                 Act ▾  (Ghana students)
+→ app landing page      Sign in                   nav right
 ```
 
 ### Nav
@@ -49,6 +49,8 @@ Designed with students, missions, and schools in Ghana.
 
 **Thesis:**
 Most programs treat youth work, school fees, and community development as three separate problems. We run them as one loop — because the same school break that pushes a student toward unsafe work is the one when community projects need hands most.
+
+**Button:** Join us → `app landing page`
 
 **Link:** Here's how our model works → `#loop`
 
@@ -399,7 +401,7 @@ SchoolMission is that system. Students serve on supervised community projects du
 **Who we are**
 `[Founder and team. Emmanuel Segbedzi, founder — a paragraph. Others as they exist.]`
 
-SchoolMission is a registered non-profit in the United States and Ghana.
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States and is licensed by the Department of Social Welfare in Ghana.
 
 **Contact:** `support@schoolmission.org`
 
@@ -415,7 +417,7 @@ Every dollar you give goes into the credit pool — the fund that pays a school 
 
 `[How to give — donation platform, bank details, mobile money.]`
 
-`[Tax status of US gifts — only if it's confirmed.]`
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
 
 You can trace it. Every credit funded by a gift is recorded from the placement where it was earned to the school where it was spent.
 
@@ -427,6 +429,7 @@ You can trace it. Every credit funded by a gift is recorded from the placement w
 
 **SchoolMission**
 Community service that pays for school.
+**Button:** Join us → `app landing page`
 
 **Location**
 `[Accra, Ghana]` · `[City, State, USA]`
@@ -447,6 +450,9 @@ About Us · Contact · Privacy Policy · Terms of Service
 Instagram → `https://www.instagram.com/schoolmissions/`
 
 © 2026 SchoolMission. All rights reserved.
+
+SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.
+Licensed by the Department of Social Welfare, Ghana.
 
 ---
 
