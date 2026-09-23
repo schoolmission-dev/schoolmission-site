@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 11
+# schoolmission.org — copy, draft 12
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -475,7 +475,7 @@ Licensed by the Department of Social Welfare, Ghana.
 
 **Still open from draft 2**
 7. Vision statement.
-8. Hero line two: name Ghana, or "Built with the people it serves."
+8. Hero line two — decided (draft 11): "Built for students, schools, missionaries, and NGOs in Ghana."
 9. Donate: a donation page link is coming; until then the mailto stopgap stays.
 10. Location lines for the footer. (Instagram is in.)
 
