@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 10
+# schoolmission.org — copy, draft 11
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -45,10 +45,10 @@ Our Sites, Partner Institutions, and Our Fellows are descriptive pages — tiles
 Community service that pays for school.
 
 **Line two (lighter):**
-Designed with students, missions, and schools in Ghana.
+Built for students, schools, missionaries, and NGOs in Ghana.
 
 **Thesis:**
-Most programs treat youth work, school fees, and community development as three separate problems. We run them as one loop — because the same school break that pushes a student toward unsafe work is the one when community projects need hands most.
+Most programs treat youth work, school fees, and community development as three separate problems. We run them as one loop: during school breaks, students serve their own communities — and that service pays for their next term.
 
 **Button:** Join us → `app landing page`
 

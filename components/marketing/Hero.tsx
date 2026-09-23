@@ -48,15 +48,16 @@ export default function Hero() {
           Community service that pays for school.
         </h1>
 
-        <p className="mt-4 font-mono text-lg font-light tracking-tight text-sm-cream/80 sm:text-xl">
-          Designed with students, missions, and schools in Ghana.
+        {/* text-base below sm: at 18px the longer line two wrapped to three
+            lines on a 390px screen, overshooting the second by a few pixels. */}
+        <p className="mt-4 font-mono text-base font-light tracking-tight text-sm-cream/80 sm:text-xl">
+          Built for students, schools, missionaries, and NGOs in Ghana.
         </p>
 
         <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-sm-cream/70 sm:text-lg">
           Most programs treat youth work, school fees, and community development as three
-          separate problems. We run them as one loop — because the same school break that
-          pushes a student toward unsafe work is the one when community projects need hands
-          most.
+          separate problems. We run them as one loop: during school breaks, students serve
+          their own communities — and that service pays for their next term.
         </p>
 
         {/* Full width with the link beneath it on small screens; both on one
