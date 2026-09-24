@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { canonical, programLd } from '@/lib/seo';
+import JsonLd from '@/components/site/JsonLd';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, ButtonLink, Lead, Reveal, TextLink } from '@/components/site/Prose';
 import TileGrid, { type Tile } from '@/components/site/TileGrid';
@@ -17,8 +19,9 @@ const PRESENT_HREF =
 export const metadata: Metadata = {
   title: `${TITLE} | SchoolMission`,
   description:
-    'A workshop for college, career, and calling: vocational discernment, applications, test preparation, scholarships, and academic counseling for every fellow.',
+    'A workshop for college, career, and calling: vocational discernment, applications, test preparation, scholarships, and academic counseling.',
   openGraph: { title: `${TITLE} | SchoolMission` },
+  alternates: { canonical: canonical('/next-steps') },
 };
 
 const INTRO =
@@ -57,6 +60,15 @@ const CLOSING =
 export default function NextStepsPage() {
   return (
     <>
+      {/* Describes the workshop without Event schema — Next Steps runs with
+          each cohort and at the Conference, and no dated instance is public. */}
+      <JsonLd
+        data={programLd({
+          path: '/next-steps',
+          name: TITLE,
+          description: INTRO,
+        })}
+      />
       <PageHeader title={TITLE} sub="A workshop for college, career, and calling" />
 
       <Prose>

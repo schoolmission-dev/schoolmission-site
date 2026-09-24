@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { canonical, programLd } from '@/lib/seo';
+import JsonLd from '@/components/site/JsonLd';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, ButtonLink, Lead, P, Reveal, TextLink } from '@/components/site/Prose';
 import TileGrid, { type Tile } from '@/components/site/TileGrid';
@@ -19,8 +21,9 @@ const MENTOR_HREF = `${MAIL}?subject=Conference%20mentor`;
 export const metadata: Metadata = {
   title: `${TITLE} | SchoolMission`,
   description:
-    'A gathering for prayer, formation, and care: everything Next Steps offers, plus what a workshop cannot — prayer, teaching, and pastoral care for every fellow.',
+    'A gathering for prayer, formation, and care: everything Next Steps offers, plus the prayer, teaching, and pastoral care a workshop cannot hold.',
   openGraph: { title: `${TITLE} | SchoolMission` },
+  alternates: { canonical: canonical('/conference') },
 };
 
 const INTRO =
@@ -61,6 +64,15 @@ const CLOSING =
 export default function ConferencePage() {
   return (
     <>
+      {/* No Event schema: the next Conference has no announced date, and a
+          dateless Event is invalid. The gathering is described instead. */}
+      <JsonLd
+        data={programLd({
+          path: '/conference',
+          name: TITLE,
+          description: INTRO,
+        })}
+      />
       <PageHeader title={TITLE} sub="A gathering for prayer, formation, and care" />
 
       <Prose>

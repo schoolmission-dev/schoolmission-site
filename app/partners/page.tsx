@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, Reveal, TextLink } from '@/components/site/Prose';
 import TileGrid, { type Tile } from '@/components/site/TileGrid';
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
   description:
     'Five kinds of partner, one loop. SchoolMission connects hosts, schools, churches, camps, and test-prep organizations, and keeps the record.',
   openGraph: { title: `${TITLE} | SchoolMission` },
+  alternates: { canonical: canonical('/partners') },
 };
 
 const INTRO =

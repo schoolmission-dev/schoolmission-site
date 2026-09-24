@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, Reveal } from '@/components/site/Prose';
 import TileGrid, { type Tile } from '@/components/site/TileGrid';
@@ -13,8 +14,10 @@ const TITLE = 'Our Fellows';
 
 export const metadata: Metadata = {
   title: `${TITLE} | SchoolMission`,
-  description: 'The students at the center of the loop: who fellows are, how they join, and what they leave with.',
+  description:
+    'Who a SchoolMission fellow is: senior high students in Ghana who serve on supervised projects, earn credits, and leave with a verified record.',
   openGraph: { title: `${TITLE} | SchoolMission` },
+  alternates: { canonical: canonical('/fellows') },
 };
 
 const INTRO =

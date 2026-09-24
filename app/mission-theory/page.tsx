@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, Reveal } from '@/components/site/Prose';
 import QuoteCard from '@/components/site/QuoteCard';
@@ -7,8 +8,10 @@ import QuoteCard from '@/components/site/QuoteCard';
 
 export const metadata: Metadata = {
   title: 'Our Mission Theory | SchoolMission',
-  description: 'Why we built a loop instead of a program: the principles behind SchoolMission.',
+  description:
+    'The principles behind SchoolMission: why students earn their school fees through verified community work instead of receiving them as aid.',
   openGraph: { title: 'Our Mission Theory | SchoolMission' },
+  alternates: { canonical: canonical('/mission-theory') },
 };
 
 const INTRO =

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, Reveal, TextLink } from '@/components/site/Prose';
 import TileGrid, { type Tile } from '@/components/site/TileGrid';
@@ -13,8 +14,10 @@ const PARTNERS_HREF = 'mailto:partners@schoolmission.org';
 
 export const metadata: Metadata = {
   title: `${TITLE} | SchoolMission`,
-  description: 'Where the loop runs: a host organization running projects, a school that honors vouchers, and a cohort of fellows.',
+  description:
+    'A SchoolMission site is three things in one community: a host organization running projects, a school that honors vouchers, and a cohort of fellows.',
   openGraph: { title: `${TITLE} | SchoolMission` },
+  alternates: { canonical: canonical('/sites') },
 };
 
 const INTRO =

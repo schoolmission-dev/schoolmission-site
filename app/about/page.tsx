@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, TextLink } from '@/components/site/Prose';
 import QuoteCard from '@/components/site/QuoteCard';
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
   description:
     'SchoolMission connects supervised community work in Ghana to the school fees students need to return to class.',
   openGraph: { title: 'About Us | SchoolMission' },
+  alternates: { canonical: canonical('/about') },
 };
 
 const CONTACT_HREF = 'mailto:support@schoolmission.org';

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import PageHeader from '@/components/site/PageHeader';
 import Prose, { Block, Lead, P, Reveal, TextLink } from '@/components/site/Prose';
 
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
   description:
     'Paid summer positions at partner camps and churches across the United States. Earn toward your own education and fund a school year in Ghana.',
   openGraph: { title: 'Careers | SchoolMission' },
+  alternates: { canonical: canonical('/careers') },
 };
 
 const APPLY_HREF =
