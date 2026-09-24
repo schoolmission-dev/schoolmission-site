@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 const SECTIONS: { label: string; body: string }[] = [
   {
     label: 'Who can use the platform',
-    body: 'Students in Ghana take part through a partner school, which confirms that a student may join a cohort. Summer positions in the United States are open to college students. Missions, NGOs, schools, and other organisations join by invitation. You agree to give accurate information and to keep your sign-in details to yourself.',
+    body: 'Students in Ghana take part through a partner school, which confirms that a student may join a cohort. Summer positions in the United States are open to college students. Missions, NGOs, schools, and other organizations join by invitation. You agree to give accurate information and to keep your sign-in details to yourself.',
   },
   {
     label: 'What Community Value Credits are — and aren’t',
-    body: 'Credits are assigned by the supervising organisation for verified community service. They are not money, cannot be transferred, and have no cash value. They convert only into vouchers redeemable at a partner school for tuition, meals, books, or the other school costs the voucher names. No cash is ever paid to a fellow. SchoolMission may correct a credit or voucher issued in error and will tell you when it does.',
+    body: 'Credits are assigned by the supervising organization for verified community service. They are not money, cannot be transferred, and have no cash value. They convert only into vouchers redeemable at a partner school for tuition, meals, books, or the other school costs the voucher names. No cash is ever paid to a fellow. SchoolMission may correct a credit or voucher issued in error and will tell you when it does.',
   },
   {
     label: 'Placements and admission',
-    body: 'Applying does not guarantee a placement, and applying to a cohort does not guarantee admission. Placements depend on partner organisations’ needs and on cohort size.',
+    body: 'Applying does not guarantee a placement, and applying to a cohort does not guarantee admission. Placements depend on partner organizations’ needs and on cohort size.',
   },
   {
     label: 'For fellows',
@@ -41,10 +41,10 @@ const SECTIONS: { label: string; body: string }[] = [
   },
   {
     label: 'For schools',
-    body: 'A school agrees to honour vouchers presented to it and to deliver the service the voucher names. SchoolMission reimburses the voucher’s value by mobile money to the number the school has registered. The school is responsible for the accuracy of that number; a reimbursement sent to the registered number is a completed reimbursement. Changes to the number take effect after SchoolMission confirms the new holder.',
+    body: 'A school agrees to honor vouchers presented to it and to deliver the service the voucher names. SchoolMission reimburses the voucher’s value by mobile money to the number the school has registered. The school is responsible for the accuracy of that number; a reimbursement sent to the registered number is a completed reimbursement. Changes to the number take effect after SchoolMission confirms the new holder.',
   },
   {
-    label: 'For missions, NGOs, and other host organisations',
+    label: 'For missions, NGOs, and other host organizations',
     body: 'A host agrees to supervise fellows responsibly, to verify only work that was actually done, and to assign credits fairly. Hosts are responsible for the safety of fellows while on placement.',
   },
   {
@@ -61,7 +61,7 @@ const SECTIONS: { label: string; body: string }[] = [
   },
   {
     label: 'Our responsibility',
-    body: 'SchoolMission provides the platform as it is. To the extent the law allows, we are not liable for indirect losses, for the acts of partner organisations, or for a school’s failure to honour a voucher — though we will work with you to put things right.',
+    body: 'SchoolMission provides the platform as it is. To the extent the law allows, we are not liable for indirect losses, for the acts of partner organizations, or for a school’s failure to honor a voucher — though we will work with you to put things right.',
   },
   {
     label: 'Governing law',

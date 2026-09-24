@@ -32,7 +32,7 @@ const WHO_WE_ARE =
 const COLLECT: [string, string][] = [
   [
     'Account information:',
-    'your name, email address, and password (stored only in encrypted form), or the name and email Google shares if you sign in with Google. Schools and organisations also give a contact phone number and, for schools, a mobile-money number for reimbursements.',
+    'your name, email address, and password (stored only in encrypted form), or the name and email Google shares if you sign in with Google. Schools and organizations also give a contact phone number and, for schools, a mobile-money number for reimbursements.',
   ],
   [
     'Applications:',
@@ -64,7 +64,7 @@ const SHARE: [string, string][] = [
     'Supabase (database and sign-in), Vercel (hosting), Resend (email), Google (sign-in with Google, if you choose it), Hubtel (mobile-money reimbursements to schools in Ghana), and Amazon Web Services (a secure relay for payment requests). Each processes information only to provide its service to us.',
   ],
   [
-    'Partner organisations, as the loop requires:',
+    'Partner organizations, as the loop requires:',
     'a supervisor sees the fellows placed with them and their work; a school sees the vouchers presented to it and its own reimbursements; an admissions reviewer sees your application. No partner sees more than its role needs.',
   ],
   ['When the law requires it,', 'or to protect the safety of a fellow.'],

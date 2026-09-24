@@ -1,4 +1,4 @@
-# schoolmission.org — copy, draft 15
+# schoolmission.org — copy, draft 16
 
 Full site, modeled on cocoa360center.org's architecture. American spelling throughout, because the site now speaks to US camps, churches, and students as well as Ghana.
 
@@ -437,7 +437,7 @@ You can trace it. Every credit funded by a gift is recorded from the placement w
 SchoolMission is a 501(c)(3) tax-exempt public charity in the United States (EIN 42-3684753), licensed by the Department of Social Welfare in Ghana. We run schoolmission.org and the platform at app.schoolmission.org. Questions about this policy go to support@schoolmission.org.
 
 **What we collect**
-- *Account information:* your name, email address, and password (stored only in encrypted form), or the name and email Google shares if you sign in with Google. Schools and organisations also give a contact phone number and, for schools, a mobile-money number for reimbursements.
+- *Account information:* your name, email address, and password (stored only in encrypted form), or the name and email Google shares if you sign in with Google. Schools and organizations also give a contact phone number and, for schools, a mobile-money number for reimbursements.
 - *Applications:* what you tell us when you apply to a cohort or to an opportunity — your school, your reasons for applying, your availability.
 - *Service records:* placements, supervisor verifications, Community Value Credits, vouchers issued and redeemed. These are the record of your service and they belong to you.
 - *Payment records (schools only):* the mobile-money number a school registers, the name the payment provider reports as that number's holder, and every reimbursement attempt. We never collect card numbers or bank passwords.
@@ -451,7 +451,7 @@ Fellows in Ghana join SchoolMission through a partner school, which confirms tha
 
 **Who we share it with**
 - *Service providers that run the platform for us:* Supabase (database and sign-in), Vercel (hosting), Resend (email), Google (sign-in with Google, if you choose it), Hubtel (mobile-money reimbursements to schools in Ghana), and Amazon Web Services (a secure relay for payment requests). Each processes information only to provide its service to us.
-- *Partner organisations, as the loop requires:* a supervisor sees the fellows placed with them and their work; a school sees the vouchers presented to it and its own reimbursements; an admissions reviewer sees your application. No partner sees more than its role needs.
+- *Partner organizations, as the loop requires:* a supervisor sees the fellows placed with them and their work; a school sees the vouchers presented to it and its own reimbursements; an admissions reviewer sees your application. No partner sees more than its role needs.
 - *When the law requires it,* or to protect the safety of a fellow.
 We do not sell information, and we do not share it with advertisers.
 
@@ -484,21 +484,21 @@ If this policy changes in a way that matters, we'll say so on this page and, for
 **Effective date:** September 24, 2026
 
 **Who can use the platform**
-Students in Ghana take part through a partner school, which confirms that a student may join a cohort. Summer positions in the United States are open to college students. Missions, NGOs, schools, and other organisations join by invitation. You agree to give accurate information and to keep your sign-in details to yourself.
+Students in Ghana take part through a partner school, which confirms that a student may join a cohort. Summer positions in the United States are open to college students. Missions, NGOs, schools, and other organizations join by invitation. You agree to give accurate information and to keep your sign-in details to yourself.
 
 **What Community Value Credits are — and aren't**
-Credits are assigned by the supervising organisation for verified community service. They are not money, cannot be transferred, and have no cash value. They convert only into vouchers redeemable at a partner school for tuition, meals, books, or the other school costs the voucher names. No cash is ever paid to a fellow. SchoolMission may correct a credit or voucher issued in error and will tell you when it does.
+Credits are assigned by the supervising organization for verified community service. They are not money, cannot be transferred, and have no cash value. They convert only into vouchers redeemable at a partner school for tuition, meals, books, or the other school costs the voucher names. No cash is ever paid to a fellow. SchoolMission may correct a credit or voucher issued in error and will tell you when it does.
 
 **Placements and admission**
-Applying does not guarantee a placement, and applying to a cohort does not guarantee admission. Placements depend on partner organisations' needs and on cohort size.
+Applying does not guarantee a placement, and applying to a cohort does not guarantee admission. Placements depend on partner organizations' needs and on cohort size.
 
 **For fellows**
 Serve honestly, follow your supervisor's instructions on safety, and report anything that makes you feel unsafe to your supervisor or to support@schoolmission.org. Present a voucher only for yourself and only at the school named on it.
 
 **For schools**
-A school agrees to honour vouchers presented to it and to deliver the service the voucher names. SchoolMission reimburses the voucher's value by mobile money to the number the school has registered. The school is responsible for the accuracy of that number; a reimbursement sent to the registered number is a completed reimbursement. Changes to the number take effect after SchoolMission confirms the new holder.
+A school agrees to honor vouchers presented to it and to deliver the service the voucher names. SchoolMission reimburses the voucher's value by mobile money to the number the school has registered. The school is responsible for the accuracy of that number; a reimbursement sent to the registered number is a completed reimbursement. Changes to the number take effect after SchoolMission confirms the new holder.
 
-**For missions, NGOs, and other host organisations**
+**For missions, NGOs, and other host organizations**
 A host agrees to supervise fellows responsibly, to verify only work that was actually done, and to assign credits fairly. Hosts are responsible for the safety of fellows while on placement.
 
 **Careers (United States)**
@@ -511,7 +511,7 @@ Don't misuse the platform: no false information, no attempt to access others' ac
 We may suspend or close an account that breaks these terms or puts a fellow at risk. You may close your account at any time by writing to support@schoolmission.org; the records described in our Privacy Policy are kept as the law requires.
 
 **Our responsibility**
-SchoolMission provides the platform as it is. To the extent the law allows, we are not liable for indirect losses, for the acts of partner organisations, or for a school's failure to honour a voucher — though we will work with you to put things right.
+SchoolMission provides the platform as it is. To the extent the law allows, we are not liable for indirect losses, for the acts of partner organizations, or for a school's failure to honor a voucher — though we will work with you to put things right.
 
 **Governing law**
 These terms are governed by the laws of the Commonwealth of Massachusetts, United States. If you are in Ghana, nothing in these terms removes the protections you have under the laws of Ghana, including the Data Protection Act, 2012 (Act 843).
