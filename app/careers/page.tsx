@@ -15,7 +15,7 @@ import Prose, { Block, Lead, P, Reveal, TextLink } from '@/components/site/Prose
 export const metadata: Metadata = {
   title: 'Careers | SchoolMission',
   description:
-    'Paid summer positions at partner camps and churches across the United States. Earn toward your own education and fund a school year in Ghana.',
+    'Paid summer positions for college students at partner camps and churches in the United States. Earn toward your education and fund a school year in Ghana.',
   openGraph: { title: 'Careers | SchoolMission' },
   alternates: { canonical: canonical('/careers') },
 };
@@ -32,7 +32,7 @@ const STEPS = [
   {
     n: '1',
     title: 'Apply',
-    body: 'Students apply for a summer placement. We match you with a partner camp or church that needs the role you can fill — counselor, program staff, kitchen, facilities, youth ministry support.',
+    body: 'College students apply for a summer placement. We match you with a partner camp or church that needs the role you can fill — counselor, program staff, kitchen, facilities, youth ministry support.',
   },
   {
     n: '2',
@@ -68,7 +68,7 @@ export default function CareersPage() {
     <>
       <PageHeader
         title="Earn your summer. Fund a school year."
-        sub="Paid summer positions at partner camps and churches across the United States"
+        sub="Paid summer positions for college students at partner camps and churches across the United States"
       />
 
       <section className="bg-sm-cream pt-20 sm:pt-28">

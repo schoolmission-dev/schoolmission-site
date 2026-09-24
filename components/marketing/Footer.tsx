@@ -1,4 +1,5 @@
-import { APP_URL, visibleFooterNav } from '@/lib/nav';
+import Link from 'next/link';
+import { APP_URL, navLinks, visibleFooterNav } from '@/lib/nav';
 import Lockup from '@/components/brand/Lockup';
 import NavHref from './NavHref';
 
@@ -59,9 +60,26 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-sm-cream/10 pt-8">
-          <p className="font-mono text-xs text-sm-cream/50">
-            © {year} SchoolMission. All rights reserved.
-          </p>
+          {/* The two legal pages sit beside the copyright as well as in Quick
+              links: it is where a reader looks for them. */}
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
+            <p className="font-mono text-xs text-sm-cream/50">
+              © {year} SchoolMission. All rights reserved.
+            </p>
+            <p className="font-mono text-xs text-sm-cream/50">
+              {[navLinks.privacy, navLinks.terms].map((link, i) => (
+                <span key={link.href}>
+                  {i > 0 && <span aria-hidden="true"> · </span>}
+                  <Link
+                    href={link.href}
+                    className="transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-on-dark"
+                  >
+                    {link.label}
+                  </Link>
+                </span>
+              ))}
+            </p>
+          </div>
           <p className="mt-4 max-w-[70ch] font-mono text-xs leading-relaxed text-sm-cream/60">
             SchoolMission is a 501(c)(3) tax-exempt public charity in the United States
             (EIN 42-3684753). Donations are tax-deductible to the extent allowed by law.

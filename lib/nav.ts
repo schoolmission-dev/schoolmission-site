@@ -72,16 +72,8 @@ export const navLinks: Record<LinkKey, NavLink> = {
   // Volunteer is for Ghana students, who mostly arrive at app. directly.
   volunteer: { label: 'Volunteer', href: APP_URL, live: true },
   contact: { label: 'Contact', href: `mailto:${SUPPORT}`, live: true },
-  privacy: {
-    label: 'Privacy Policy',
-    href: `mailto:${SUPPORT}?subject=Privacy%20Policy`,
-    live: true,
-  },
-  terms: {
-    label: 'Terms of Service',
-    href: `mailto:${SUPPORT}?subject=Terms%20of%20Service`,
-    live: true,
-  },
+  privacy: { label: 'Privacy Policy', href: '/privacy', live: true },
+  terms: { label: 'Terms of Service', href: '/terms', live: true },
   instagram: {
     label: 'Instagram',
     href: INSTAGRAM_URL,
