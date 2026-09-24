@@ -7,7 +7,7 @@ import Lockup from '@/components/brand/Lockup';
 import NavHref from './NavHref';
 
 const DESKTOP_LINK =
-  'text-sm text-sm-text-muted transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta';
+  'text-sm text-sm-text-muted transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text';
 
 function NavDropdown({ group }: { group: NavGroup }) {
   const [open, setOpen] = useState(false);
@@ -192,7 +192,7 @@ export default function TopNav() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link
           href="/"
-          className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+          className="focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
         >
           {/* Both nav states sit on cream: the bar is in normal flow above the
               hero rather than over it, so at scrollY 0 the transparent bar shows
@@ -216,7 +216,7 @@ export default function TopNav() {
         <div className="hidden items-center gap-4 md:flex">
           <NavHref
             item={signIn}
-            className="text-sm font-medium text-sm-coffee transition-colors hover:text-sm-terracotta focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+            className="text-sm font-medium text-sm-coffee transition-colors hover:text-sm-terracotta-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
           />
           <NavHref
             item={donateCta}
@@ -230,7 +230,7 @@ export default function TopNav() {
           aria-expanded={drawerOpen}
           aria-controls={drawerId}
           onClick={() => setDrawerOpen((value) => !value)}
-          className="-mr-2 inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta md:hidden"
+          className="-mr-2 inline-flex cursor-pointer items-center justify-center rounded-md p-2 text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta-text md:hidden"
         >
           <svg
             aria-hidden="true"
@@ -274,7 +274,7 @@ export default function TopNav() {
                       key={child.label}
                       item={child}
                       onClick={closeDrawer}
-                      className="block rounded-md px-1 py-2.5 text-base text-sm-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta"
+                      className="block rounded-md px-1 py-2.5 text-base text-sm-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta-text"
                     />
                   ))}
                 </div>
@@ -283,7 +283,7 @@ export default function TopNav() {
                   key={item.label}
                   item={item}
                   onClick={closeDrawer}
-                  className="block rounded-md px-1 py-2.5 text-base text-sm-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta"
+                  className="block rounded-md px-1 py-2.5 text-base text-sm-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta-text"
                 />
               ),
             )}
@@ -292,7 +292,7 @@ export default function TopNav() {
               <NavHref
                 item={signIn}
                 onClick={closeDrawer}
-                className="px-1 text-base font-medium text-sm-coffee transition-colors hover:text-sm-terracotta focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta"
+                className="px-1 text-base font-medium text-sm-coffee transition-colors hover:text-sm-terracotta-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sm-terracotta-text"
               />
               <NavHref
                 item={donateCta}

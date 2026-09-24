@@ -71,7 +71,7 @@ export default function Hero() {
           </a>
           <a
             href="#loop"
-            className="text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+            className="text-sm font-medium text-sm-terracotta-on-dark transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-on-dark"
           >
             {LOOP_LINK}
           </a>

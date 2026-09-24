@@ -76,7 +76,7 @@ export default function FellowsPage() {
               href={INSTAGRAM_URL}
               target="_blank"
               rel="noopener"
-              className="mt-5 inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+              className="mt-5 inline-block text-sm font-medium text-sm-terracotta-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
             >
               Follow each cohort on Instagram →
             </a>

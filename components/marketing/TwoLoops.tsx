@@ -15,7 +15,7 @@ const BODY =
   "Every summer, SchoolMission places US students in paid positions at partner camps and churches. They earn wages, build skills, and put a share of what they earn toward their own education — and a share toward the credit pool that pays for a student's school year in Ghana. Each of them is matched to the student they're helping fund and can follow their progress.";
 
 const RING = 'h-32 w-32 rounded-full border-2 border-sm-terracotta/30 sm:h-40 sm:w-40';
-const LABEL = 'mt-4 font-mono text-xs uppercase tracking-widest text-sm-terracotta';
+const LABEL = 'mt-4 font-mono text-xs uppercase tracking-widest text-sm-terracotta-text';
 
 export default function TwoLoops() {
   return (
@@ -45,7 +45,7 @@ export default function TwoLoops() {
           {navLinks.careers.live && (
             <a
               href={navLinks.careers.href}
-              className="mt-6 inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+              className="mt-6 inline-block text-sm font-medium text-sm-terracotta-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
             >
               See careers →
             </a>

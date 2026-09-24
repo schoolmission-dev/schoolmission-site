@@ -62,7 +62,7 @@ export function Block({
   return (
     <Reveal>
       {label && (
-        <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+        <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
           {label}
         </h2>
       )}
@@ -110,7 +110,7 @@ export function TextLink({ href, children }: { href: string; children: React.Rea
   return (
     <a
       href={href}
-      className="inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+      className="inline-block text-sm font-medium text-sm-terracotta-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
     >
       {children}
     </a>

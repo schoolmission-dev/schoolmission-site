@@ -82,7 +82,7 @@ export default function MissionTheoryPage() {
         <QuoteCard quote={QUOTE} attribution={QUOTE_BY} />
 
         <Reveal>
-          <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+          <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
             Reading that shaped us
           </h2>
           <p className="mt-4 font-mono text-sm leading-relaxed text-sm-text-muted">

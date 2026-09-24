@@ -35,7 +35,7 @@ export default function TileGrid({
                 />
               )}
               <p
-                className={`font-mono text-xs uppercase tracking-widest text-sm-terracotta ${
+                className={`font-mono text-xs uppercase tracking-widest text-sm-terracotta-text ${
                   ring ? 'pr-12' : ''
                 }`}
               >

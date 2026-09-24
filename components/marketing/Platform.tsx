@@ -21,7 +21,7 @@ export default function Platform() {
 
           <a
             href={APP_URL}
-            className="mt-6 inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+            className="mt-6 inline-block text-sm font-medium text-sm-terracotta-text transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
           >
             Open the platform →
           </a>

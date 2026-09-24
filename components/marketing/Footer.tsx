@@ -41,7 +41,7 @@ export default function Footer() {
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-5">
           {columns.map((column) => (
             <div key={column.label}>
-              <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+              <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-on-dark">
                 {column.label}
               </p>
               <ul className="mt-4 space-y-2.5">
@@ -49,7 +49,7 @@ export default function Footer() {
                   <li key={child.label}>
                     <NavHref
                       item={child}
-                      className="text-sm text-sm-cream/70 transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+                      className="text-sm text-sm-cream/70 transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-on-dark"
                     />
                   </li>
                 ))}

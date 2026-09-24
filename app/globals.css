@@ -6,7 +6,15 @@
 
   /* SchoolMission Warm Heritage palette */
   --sm-coffee: #2C1810;
+  /* The brand terracotta. Kept for rings, discs, borders and fills, where it
+     carries no text and the 3:1 non-text threshold applies. */
   --sm-terracotta: #B8622C;
+  /* Text-safe terracotta. #B8622C reads 4.05:1 on cream and 3.87:1 on coffee,
+     under the 4.5:1 WCAG AA needs for body-sized text, so labels, eyebrows and
+     links take these two instead: 5.24:1 on cream, 5.64:1 on white, 5.56:1 on
+     coffee. Same hue family, enough contrast to read. */
+  --sm-terracotta-text: #A0521F;
+  --sm-terracotta-on-dark: #D2804A;
   --sm-yellow: #fcbf03;
   --sm-cream: #FAF6F1;
   --sm-white: #FFFFFF;
@@ -23,6 +31,8 @@
 
   --color-sm-coffee: var(--sm-coffee);
   --color-sm-terracotta: var(--sm-terracotta);
+  --color-sm-terracotta-text: var(--sm-terracotta-text);
+  --color-sm-terracotta-on-dark: var(--sm-terracotta-on-dark);
   --color-sm-yellow: var(--sm-yellow);
   --color-sm-cream: var(--sm-cream);
   --color-sm-white: var(--sm-white);

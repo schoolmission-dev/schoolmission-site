@@ -15,7 +15,7 @@ export default function Purpose() {
     <section className="bg-sm-cream py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-2 md:gap-16">
         <div>
-          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
             Vision
           </p>
           <p className="mt-4 max-w-[60ch] text-lg leading-relaxed text-sm-coffee sm:text-xl">
@@ -24,7 +24,7 @@ export default function Purpose() {
         </div>
 
         <div>
-          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
             Mission
           </p>
           <p className="mt-4 max-w-[60ch] text-lg leading-relaxed text-sm-coffee sm:text-xl">

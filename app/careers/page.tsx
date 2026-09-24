@@ -84,7 +84,7 @@ export default function CareersPage() {
       <section className="bg-sm-cream py-16 sm:py-20">
         <div className="mx-auto max-w-3xl px-6">
           <Reveal>
-            <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+            <h2 className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
               How it works
             </h2>
           </Reveal>
@@ -94,7 +94,7 @@ export default function CareersPage() {
               <li key={step.n}>
                 <Reveal>
                   <div className="rounded-xl border border-sm-border bg-sm-white p-7">
-                    <p className="font-mono text-sm text-sm-terracotta">{step.n}</p>
+                    <p className="font-mono text-sm text-sm-terracotta-text">{step.n}</p>
                     <h3 className="mt-3 text-xl font-semibold text-sm-coffee">
                       {step.title}
                     </h3>
@@ -120,7 +120,7 @@ export default function CareersPage() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-[65ch]">
             <Reveal>
-              <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+              <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-on-dark">
                 For camps and churches
               </p>
               <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -141,7 +141,7 @@ export default function CareersPage() {
             <Reveal className="mt-8">
               <a
                 href={HIRE_HREF}
-                className="inline-block text-sm font-medium text-sm-terracotta transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+                className="inline-block text-sm font-medium text-sm-terracotta-on-dark transition-colors hover:text-sm-cream focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-on-dark"
               >
                 Hire through SchoolMission →
               </a>

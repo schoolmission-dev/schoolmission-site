@@ -73,7 +73,7 @@ function Step({ n, title, body, chips, place }: (typeof STEPS)[number]) {
       <div className="relative h-full rounded-xl border border-sm-border bg-sm-white p-7">
         {/* On mobile this sits out on the rail; the cream disc masks the line
             behind it. At md+ it returns to normal flow inside the tile. */}
-        <p className="absolute -left-14 top-6 flex h-8 w-8 items-center justify-center rounded-full bg-sm-cream font-mono text-sm text-sm-terracotta md:static md:block md:h-auto md:w-auto md:bg-transparent">
+        <p className="absolute -left-14 top-6 flex h-8 w-8 items-center justify-center rounded-full bg-sm-cream font-mono text-sm text-sm-terracotta-text md:static md:block md:h-auto md:w-auto md:bg-transparent">
           {n}
         </p>
         <h3 className="mt-3 text-xl font-semibold text-sm-coffee">{title}</h3>
@@ -82,7 +82,7 @@ function Step({ n, title, body, chips, place }: (typeof STEPS)[number]) {
           {chips.map((chip) => (
             <li
               key={chip}
-              className="rounded-full border border-sm-terracotta/30 px-2.5 py-1 font-mono text-xs text-sm-terracotta"
+              className="rounded-full border border-sm-terracotta/30 px-2.5 py-1 font-mono text-xs text-sm-terracotta-text"
             >
               {chip}
             </li>
@@ -134,7 +134,7 @@ export default function Loop() {
         </div>
 
         <div className="mx-auto mt-16 max-w-[60ch] text-center">
-          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta">
+          <p className="font-mono text-xs uppercase tracking-widest text-sm-terracotta-text">
             To keep the loop honest
           </p>
           <p className="mt-4 text-base leading-relaxed text-sm-text-muted">

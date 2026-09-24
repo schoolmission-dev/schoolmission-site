@@ -106,7 +106,7 @@ export default function ConferencePage() {
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener"
-                className="font-medium text-sm-terracotta underline underline-offset-4 transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta"
+                className="font-medium text-sm-terracotta-text underline underline-offset-4 transition-colors hover:text-sm-coffee focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sm-terracotta-text"
               >
                 Instagram
               </a>
